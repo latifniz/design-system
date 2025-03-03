@@ -5,7 +5,7 @@ import tailwind from '@astrojs/tailwind';
 
 // https://astro.build/config
 export default defineConfig({
-	site: ': https://nizam.codeforpakistan.org',
+	site: 'https://nizam.codeforpakistan.org',
 	integrations: [
 		starlight({
 			title: 'Docs with Tailwind',
