@@ -7,16 +7,16 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Digital Design Nizam',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/codeforpakistan/design-system',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Example Guide', slug: 'guides/getting-started' },
 					],
 				},
 				{

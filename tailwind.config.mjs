@@ -8,10 +8,15 @@ export default {
 		extend: {
 			colors: {
 				// Your preferred accent color. Indigo is closest to Starlight’s defaults.
-				accent: colors.indigo,
+				accent: colors.emerald,
 				// Your preferred gray scale. Zinc is closest to Starlight’s defaults.
 				gray: colors.zinc,
 			},
+			fontFamily: {
+				// Your preferred text font. Starlight uses a system font stack by default.
+				sans: ['"Open Sans"'],
+			
+			  },
 		},
 	},
 	plugins: [starlightPlugin()],
